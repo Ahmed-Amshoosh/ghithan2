@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>المصمم المحترف | معرض الأعمال</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&family=Cairo:wght@400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- شريط التنقل -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <img src="./logo.png" alt="" srcset=""> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#home">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">المشاريع</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">الخدمات</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">عني</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">تواصل</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="hero-bg" id="heroBg"></div>
+        <div class="container position-relative z-2">
+            <div class="row align-items-center min-vh-100" style="padding: 50px 0px;">
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="hero-badge">✦ مصمم جرافيك محترف</div>
+                    <h1 class="display-2 fw-bold mb-4">
+                        نصمم لك<br>
+                        <span class="gradient-text">هوية لا تُنسى</span>
+                    </h1>
+                    <p class="hero-desc mb-4">
+                        متخصص في تصميم الهويات البصرية، السوشيال ميديا، والمواد التسويقية التي تجعل علامتك تتألق
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary btn-custom btn-lg">
+                            <i class="bi bi-grid-fill me-2"></i>أعمالي
+                        </a>
+                        <a href="#contact" class="btn btn-outline-primary btn-lg">
+                            <i class="bi bi-send me-2"></i>تواصل
+                        </a>
+                    </div>
+                    <div class="hero-stats mt-5">
+                        <div class="stat-item">
+                            <h3><span class="counter" data-target="150">0</span>+</h3>
+                            <p>مشروع</p>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <h3><span class="counter" data-target="80">0</span>+</h3>
+                            <p>عميل</p>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <h3><span class="counter" data-target="5">0</span>+</h3>
+                            <p>سنوات</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="hero-visual">
+                        <div class="hero-shape hero-shape-1"></div>
+                        <div class="hero-shape hero-shape-2"></div>
+                        <img src="./img.jpeg" alt="Hero" class="hero-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- المشاريع -->
+    <section class="section projects-section" id="projects">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-label">معرض الأعمال</span>
+                <h2 class="section-title">أعمالي <span class="gradient-text">المميزة</span></h2>
+                <p class="section-subtitle">نماذج مختارة من المشاريع التي عملت عليها</p>
+            </div>
+
+            <div class="tabs-wrapper" data-aos="fade-up" data-aos-delay="100">
+                <div class="tabs-container">
+                    <button type="button" class="tab-btn active" data-filter="all">
+                        <i class="bi bi-grid-3x3-gap-fill tab-icon"></i>
+                        <span class="tab-text">الكل</span>
+                    </button>
+                    <button type="button" class="tab-btn" data-filter="branding">
+                        <i class="bi bi-palette-fill tab-icon"></i>
+                        <span class="tab-text">هوية بصرية</span>
+                    </button>
+                    <button type="button" class="tab-btn" data-filter="social">
+                        <i class="bi bi-instagram tab-icon"></i>
+                        <span class="tab-text">سوشيال</span>
+                    </button>
+                    <button type="button" class="tab-btn" data-filter="print">
+                        <i class="bi bi-printer-fill tab-icon"></i>
+                        <span class="tab-text">مطبوعات</span>
+                    </button>
+                    <button type="button" class="tab-btn" data-filter="web">
+                        <i class="bi bi-laptop-fill tab-icon"></i>
+                        <span class="tab-text">ويب</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="row g-4" id="projectsGrid">
+                <!-- سيتم ملؤها تلقائياً من ملف JSON -->
+                <div class="text-center py-5">
+                    <div class="spinner-border text-primary" role="loading">
+                        <span class="visually-hidden">جاري التحميل...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="clientModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content border-0 shadow-lg">
+                <div class="modal-header border-0">
+                    <div>
+                        <h4 class="modal-title fw-bold" id="clientModalTitle">عنوان الجهة</h4>
+                        <p class="mb-0" id="clientModalSubtitle">وصف الجهة</p>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="masonry-grid" id="clientWorksGrid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- الخدمات -->
+    <section class="section services-section" id="services">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-label">ماذا أقدم</span>
+                <h2 class="section-title">خدماتي <span class="gradient-text">الإبداعية</span></h2>
+                <p class="section-subtitle">حلول تصميم متكاملة تناسب جميع احتياجاتك</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-item" data-aos="fade-up" data-aos-delay="0">
+                    <div class="service-card-inner">
+                        <div class="service-number">01</div>
+                        <div class="service-icon-wrap">
+                            <div class="service-bg"></div>
+                            <i class="bi bi-palette-fill"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>الهويات البصرية</h4>
+                            <p>شعارات وهويات بصرية متكاملة تعكس شخصية علامتك وتترك انطباعاً لا يُنسى</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card-inner">
+                        <div class="service-number">02</div>
+                        <div class="service-icon-wrap">
+                            <div class="service-bg"></div>
+                            <i class="bi bi-instagram"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>السوشيال ميديا</h4>
+                            <p>تصميمات بوستات وستوريز إبداعية تزيد التفاعل وتجذب جمهورك</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card-inner">
+                        <div class="service-number">03</div>
+                        <div class="service-icon-wrap">
+                            <div class="service-bg"></div>
+                            <i class="bi bi-printer-fill"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>المطبوعات</h4>
+                            <p>بروشورات، بطاقات عمل، فلايرات، وكل ما تحتاجه مطبوعاً بجودة عالية</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card-inner">
+                        <div class="service-number">04</div>
+                        <div class="service-icon-wrap">
+                            <div class="service-bg"></div>
+                            <i class="bi bi-phone-fill"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>واجهات المستخدم</h4>
+                            <p>تصميم UI/UX عصري للمواقع والتطبيقات بتجربة مستخدم رائعة</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card-inner">
+                        <div class="service-number">05</div>
+                        <div class="service-icon-wrap">
+                            <div class="service-bg"></div>
+                            <i class="bi bi-camera-video-fill"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>الموشن جرافيك</h4>
+                            <p>فيديوهات متحركة إبداعية تنقل فكرتك بأسلوب جذاب ومؤثر</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-item" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-card-inner">
+                        <div class="service-number">06</div>
+                        <div class="service-icon-wrap">
+                            <div class="service-bg"></div>
+                            <i class="bi bi-box-seam-fill"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>تصميم التغليف</h4>
+                            <p>تصميم عبوات وتغليف منتجات مبتكر يلفت الانتباه على الرفوف</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- عني - تصميم Bento Grid مع لمسة احترافية -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-label">تعرف علي</span>
+                <h2 class="section-title">مصمم <span class="gradient-text">شغوف</span> بالإبداع</h2>
+                <p class="section-subtitle">أحول الأفكار إلى تصاميم بصرية تترك أثراً</p>
+            </div>
+
+            <!-- كارد النبذة الخاص -->
+            <div class="about-intro-card" data-aos="fade-up">
+                <div class="intro-visual">
+                    <div class="intro-avatar">
+                        <img src="./img.jpeg" alt="" style="padding-top: 60px;" srcset="">
+                        <!-- <i class="bi bi-person-fill"></i> -->
+                    </div>
+                    <div class="intro-badge">
+                        <span class="badge-number">5+</span>
+                        <span class="badge-text">سنوات</span>
+                    </div>
+                </div>
+                <div class="intro-content">
+                    <h3>مرحباً، أنا <span class="gradient-text">المصمم المحترف</span></h3>
+                    <p>مصمم جرافيك بخبرة تزيد عن 5 سنوات في عالم التصميم الإبداعي. أؤمن بأن التصميم الجيد ليس مجرد شكل
+                        جميل، بل هو لغة بصرية تنقل الرسالة وتؤثر في الجمهور. عملت مع أكثر من 80 عميلاً من مختلف
+                        المجالات، وأسعى دائماً لتقديم تصاميم تجمع بين الجمال والوظيفة.</p>
+                    <div class="intro-stats">
+                        <div class="intro-stat">
+                            <i class="bi bi-briefcase-fill"></i>
+                            <div>
+                                <h5>150+</h5>
+                                <span>مشروع منجز</span>
+                            </div>
+                        </div>
+                        <div class="intro-stat">
+                            <i class="bi bi-people-fill"></i>
+                            <div>
+                                <h5>80+</h5>
+                                <span>عميل سعيد</span>
+                            </div>
+                        </div>
+                        <div class="intro-stat">
+                            <i class="bi bi-award-fill"></i>
+                            <div>
+                                <h5>25+</h5>
+                                <span>جائزة تصميم</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bento-grid">
+                <div class="bento-item bento-large" data-aos="fade-up" data-aos-delay="0">
+                    <div class="bento-content">
+                        <div class="bento-icon">
+                            <i class="bi bi-brush-fill"></i>
+                        </div>
+                        <div class="bento-info">
+                            <h4>Adobe Photoshop</h4>
+                            <p>تحرير الصور والتصميم الاحترافي</p>
+                        </div>
+                        <div class="bento-percent">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="40" class="percent-bg"></circle>
+                                <circle cx="50" cy="50" r="40" class="percent-fill" data-percent="95"></circle>
+                                <text x="50" y="55" class="percent-text">95%</text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bento-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bento-content">
+                        <div class="bento-icon">
+                            <i class="bi bi-vector-pen"></i>
+                        </div>
+                        <div class="bento-info">
+                            <h4>Illustrator</h4>
+                            <p>تصميم الشعارات والفيكتور</p>
+                        </div>
+                        <div class="bento-percent">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="40" class="percent-bg"></circle>
+                                <circle cx="50" cy="50" r="40" class="percent-fill" data-percent="90"></circle>
+                                <text x="50" y="55" class="percent-text">90%</text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bento-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bento-content">
+                        <div class="bento-icon">
+                            <i class="bi bi-bezier2"></i>
+                        </div>
+                        <div class="bento-info">
+                            <h4>Figma</h4>
+                            <p>تصميم واجهات المستخدم</p>
+                        </div>
+                        <div class="bento-percent">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="40" class="percent-bg"></circle>
+                                <circle cx="50" cy="50" r="40" class="percent-fill" data-percent="85"></circle>
+                                <text x="50" y="55" class="percent-text">85%</text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bento-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bento-content">
+                        <div class="bento-icon">
+                            <i class="bi bi-file-earmark-text-fill"></i>
+                        </div>
+                        <div class="bento-info">
+                            <h4>InDesign</h4>
+                            <p>تصميم المطبوعات</p>
+                        </div>
+                        <div class="bento-percent">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="40" class="percent-bg"></circle>
+                                <circle cx="50" cy="50" r="40" class="percent-fill" data-percent="80"></circle>
+                                <text x="50" y="55" class="percent-text">80%</text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bento-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="bento-content">
+                        <div class="bento-icon">
+                            <i class="bi bi-camera-fill"></i>
+                        </div>
+                        <div class="bento-info">
+                            <h4>Lightroom</h4>
+                            <p>معالجة الصور</p>
+                        </div>
+                        <div class="bento-percent">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="40" class="percent-bg"></circle>
+                                <circle cx="50" cy="50" r="40" class="percent-fill" data-percent="75"></circle>
+                                <text x="50" y="55" class="percent-text">75%</text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="bento-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="bento-content">
+                        <div class="bento-icon">
+                            <i class="bi bi-camera-fill"></i>
+                        </div>
+                        <div class="bento-info">
+                            <h4>Lightroom</h4>
+                            <p>معالجة الصور</p>
+                        </div>
+                        <div class="bento-percent">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="40" class="percent-bg"></circle>
+                                <circle cx="50" cy="50" r="40" class="percent-fill" data-percent="75"></circle>
+                                <text x="50" y="55" class="percent-text">75%</text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bento-item bento-large" data-aos="fade-up" data-aos-delay="500">
+                    <div class="bento-content">
+                        <div class="bento-icon">
+                            <i class="bi bi-film"></i>
+                        </div>
+                        <div class="bento-info">
+                            <h4>After Effects</h4>
+                            <p>الموشن جرافيك والرسوم المتحركة</p>
+                        </div>
+                        <div class="bento-percent">
+                            <svg viewBox="0 0 100 100">
+                                <circle cx="50" cy="50" r="40" class="percent-bg"></circle>
+                                <circle cx="50" cy="50" r="40" class="percent-fill" data-percent="70"></circle>
+                                <text x="50" y="55" class="percent-text">70%</text>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- التواصل - كاردات صغيرة مدمجة -->
+    <!-- Bottom Navigation (Mobile Only) -->
+    <nav class="bottom-nav">
+        <a href="#home" class="nav-item active">
+            <i class="bi bi-house-fill"></i>
+            <span>الرئيسية</span>
+        </a>
+        <a href="#projects" class="nav-item">
+            <i class="bi bi-grid-fill"></i>
+            <span>المشاريع</span>
+        </a>
+        <a href="#services" class="nav-item">
+            <i class="bi bi-briefcase-fill"></i>
+            <span>الخدمات</span>
+        </a>
+        <a href="#about" class="nav-item">
+            <i class="bi bi-person-fill"></i>
+            <span>عني</span>
+        </a>
+        <a href="#contact" class="nav-item">
+            <i class="bi bi-chat-fill"></i>
+            <span>تواصل</span>
+        </a>
+    </nav>
+
+    <!-- التواصل - تصميم جديد -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header text-center" data-aos="fade-up">
+                <span class="section-label">تواصل معي</span>
+                <h2 class="section-title">لنبدأ <span class="gradient-text">مشروعك</span></h2>
+                <p class="section-subtitle">اختر الطريقة المناسبة لك وتواصل معي مباشرة</p>
+            </div>
+
+            <div class="contact-channels">
+                <a href="https://wa.me/966501234567" target="_blank" class="contact-channel whatsapp" data-aos="fade-up"
+                    data-aos-delay="0">
+                    <div class="channel-icon">
+                        <i class="bi bi-whatsapp"></i>
+                    </div>
+                    <div class="channel-info">
+                        <h4>واتساب</h4>
+                        <p>تواصل سريع ومباشر</p>
+                        <span class="channel-status online">متصل الآن</span>
+                    </div>
+                    <div class="channel-arrow">
+                        <i class="bi bi-arrow-left"></i>
+                    </div>
+                </a>
+
+                <a href="https://instagram.com" target="_blank" class="contact-channel instagram" data-aos="fade-up"
+                    data-aos-delay="100">
+                    <div class="channel-icon">
+                        <i class="bi bi-instagram"></i>
+                    </div>
+                    <div class="channel-info">
+                        <h4>إنستقرام</h4>
+                        <p>راسلني على DM</p>
+                        <span class="channel-handle">@designer.pro</span>
+                    </div>
+                    <div class="channel-arrow">
+                        <i class="bi bi-arrow-left"></i>
+                    </div>
+                </a>
+
+                <a href="https://twitter.com" target="_blank" class="contact-channel twitter" data-aos="fade-up"
+                    data-aos-delay="200">
+                    <div class="channel-icon">
+                        <i class="bi bi-twitter-x"></i>
+                    </div>
+                    <div class="channel-info">
+                        <h4>تويتر</h4>
+                        <p>تواصل عبر الرسائل</p>
+                        <span class="channel-handle">@designer_pro</span>
+                    </div>
+                    <div class="channel-arrow">
+                        <i class="bi bi-arrow-left"></i>
+                    </div>
+                </a>
+
+                <a href="mailto:info@designer.com" class="contact-channel email" data-aos="fade-up"
+                    data-aos-delay="300">
+                    <div class="channel-icon">
+                        <i class="bi bi-envelope-fill"></i>
+                    </div>
+                    <div class="channel-info">
+                        <h4>البريد الإلكتروني</h4>
+                        <p>أرسل تفاصيل مشروعك</p>
+                        <span class="channel-handle">info@designer.com</span>
+                    </div>
+                    <div class="channel-arrow">
+                        <i class="bi bi-arrow-left"></i>
+                    </div>
+                </a>
+
+                <a href="https://linkedin.com" target="_blank" class="contact-channel linkedin" data-aos="fade-up"
+                    data-aos-delay="400">
+                    <div class="channel-icon">
+                        <i class="bi bi-linkedin"></i>
+                    </div>
+                    <div class="channel-info">
+                        <h4>لينكد إن</h4>
+                        <p>تواصل احترافي</p>
+                        <span class="channel-handle">Designer Professional</span>
+                    </div>
+                    <div class="channel-arrow">
+                        <i class="bi bi-arrow-left"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر العمودي -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-vertical">
+                <!-- الشعار والوصف -->
+                <div class="footer-top" data-aos="fade-up">
+                    <h3 class="footer-brand">
+                        <img src="./logo.png" alt="" srcset="">
+                    </h3>
+                    <p class="footer-desc">أحول الأفكار إلى تصاميم إبداعية تميز علامتك التجارية وتترك أثراً لا يُنسى</p>
+                </div>
+
+                <!-- خط فاصل -->
+                <div class="footer-divider"></div>
+
+
+                <!-- أيقونات التواصل -->
+                <div class="footer-socials" data-aos="fade-up" data-aos-delay="200">
+                    <a href="#" class="footer-social-icon"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="footer-social-icon"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="footer-social-icon"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="footer-social-icon"><i class="bi bi-behance"></i></a>
+                    <a href="#" class="footer-social-icon"><i class="bi bi-dribbble"></i></a>
+                </div>
+
+                <!-- حقوق النشر -->
+                <div class="footer-bottom" data-aos="fade-up" data-aos-delay="300">
+                    <p>&copy; 2024 المصمم المحترف. جميع الحقوق محفوظة</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- زر واتساب -->
+    <a href="https://wa.me/966501234567" target="_blank" class="whatsapp-float">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+   <script src="assets/data/projects.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
