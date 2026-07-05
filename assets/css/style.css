@@ -275,12 +275,15 @@ img { max-width: 100%; }
     flex-wrap: wrap;
     justify-content: center;
 }
-
+@media (max-width: 425px) {
+    .tabs-container {
+        gap: 0rem;}
+}
 .tab-btn {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.7rem 1.5rem;
+    padding: 0.3rem 1rem;
     border: none;
     background: transparent;
     border-radius: 50px;
@@ -924,7 +927,7 @@ img { max-width: 100%; }
 @media (max-width: 992px) {
     .display-2 { font-size: 2.5rem; }
     .section-title { font-size: 2rem; }
-    .hero-section { padding-top: 100px; }
+    .hero-section { padding-top: 0px; }
 }
 
 @media (max-width: 768px) {
