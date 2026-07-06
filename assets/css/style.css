@@ -1798,11 +1798,7 @@ img { max-width: 100%; }
     }
     
     /* في التابلت: 3 كاردات في السطر الأول، 2 في الثاني */
-    .contact-channel:nth-child(3) {
-        grid-column: 1 / -1;
-        max-width: 50%;
-        margin: 0 auto;
-    }
+
     
     .contact-channel:last-child {
         grid-column: auto;
