@@ -119,7 +119,7 @@ function renderProjects(projects) {
                                 <i class="bi bi-collection"></i> ${project.count} تصميم
                             </span>
                         </div>
-                        <h5 class="project-title">${project.title}</h5>
+                        <h3 class="project-title">${project.title}</h3>
                         <p class="project-desc">${project.description}</p>
                         <div class="project-footer">
                             <div class="project-dots">
